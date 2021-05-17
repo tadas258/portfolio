@@ -1,0 +1,91 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 100%;
+  height: 300px;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.name {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 3rem;
+}
+.skill {
+  color: white;
+}
+
+.arr_container,
+.cancel {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: var(--red-details);
+  bottom: 0;
+  right: 0;
+  border-radius: 25px 0 0 0;
+  color: rgp(70, 70, 70);
+  font-size: 1, 6rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.left_container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #000000;
+  width: 100%;
+  height: 100%;
+
+  padding: 40px 0 0 20px;
+  transition: all 0.4s;
+}
+.left_container > h3 {
+  font-size: 2.3rem;
+}
+.skills {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.none {
+  color: white;
+}
+
+.skills > div {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.skills > div > span {
+  color: var(--font-color);
+}
+
+.off {
+  transform: translate(-80%, -80%) rotate(90deg);
+}
+.active {
+  transform: translate(20%) rotate(20%) rotate(90deg);
+}
+
+.socials > a {
+  font-size: 1.7rem;
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.4s;
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.socials > a:hover {
+  transform: rotate(360deg);
+}

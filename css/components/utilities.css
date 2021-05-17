@@ -1,0 +1,14 @@
+.bg-black {
+  background-color: var(--back-color);
+}
+.bg-grey {
+  background-color: var(--main-color);
+}
+p {
+  color: var(--font-color);
+}
+h1,
+h2,
+h3 {
+  color: white;
+}

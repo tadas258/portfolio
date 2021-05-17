@@ -1,0 +1,12 @@
+.profile-img {
+  position: absolute;
+  width: 36%;
+  background-image: url(../img/profile2.jpg);
+  height: 100%;
+  top: 0;
+  left: 130px;
+  z-index: 9999;
+  background-size: cover;
+  background-position: center top;
+  box-shadow: 10px 10px 50px 40px rgba(0, 0, 0, 0.253);
+}

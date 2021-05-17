@@ -1,0 +1,33 @@
+@import "./components/reset.css";
+@import "./components/utilities.css";
+@import "./components/variables.css";
+@import "./about-me.css";
+@import "./skills.css";
+@import "./profile-img.css";
+
+.container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  padding: 60px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hamburger {
+  width: 6%;
+
+  background-color: grey;
+}
+
+/* .profile {
+  width: 20%;
+  height: 50px;
+} */
