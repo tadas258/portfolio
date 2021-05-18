@@ -1,18 +1,29 @@
 .right-column {
-  width: 50%;
+  width: 60%;
+  height: 100%;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 .about-me {
   border-bottom: solid 1px grey;
+  height: 50%;
 }
-.about-me > h1 {
+.about-me > div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-bottom: 2px;
+}
+.about-me > div > h1 {
   margin-top: 30px;
   font-size: 70px;
 }
-.about-me > p {
+.about-me > div > p {
+  /* box-sizing: border-box; */
+  font-size: 1rem;
   margin-right: 30px;
   line-height: 25px;
-  margin-bottom: 45px;
 }
 .basic-info {
   display: flex;
@@ -21,4 +32,27 @@
 .basic-info > span {
   color: var(--red-details);
   font-size: 20px;
+}
+
+@media (max-width: 1550px) {
+  .about-me > div > h1 {
+    margin-top: 25px;
+    font-size: 60px;
+  }
+}
+@media (max-width: 1300px) {
+  .about-me > div > h1 {
+    margin-top: 20px;
+    font-size: 50px;
+  }
+  .about-me > div > p {
+    line-height: 22px;
+    /* margin-bottom: 45px; */
+  }
+}
+@media (max-height: 700px) {
+  .about-me > div > p {
+    line-height: 20px;
+    /* margin-bottom: 45px; */
+  }
 }

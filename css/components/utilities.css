@@ -1,5 +1,5 @@
 .bg-black {
-  background-color: var(--back-color);
+  background-image: url(../../img/dark_background_line_surface_65896_1920x1080.jpg);
 }
 .bg-grey {
   background-color: var(--main-color);

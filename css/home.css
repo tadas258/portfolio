@@ -4,6 +4,7 @@
 @import "./about-me.css";
 @import "./skills.css";
 @import "./profile-img.css";
+@import "./media.css";
 
 .container {
   position: absolute;
@@ -14,11 +15,14 @@
   transform: translate(-50%, -50%);
   width: 90%;
   padding: 60px;
+  height: 75vh;
 }
 
 .wrapper {
   display: flex;
   justify-content: space-between;
+  box-shadow: 0 0 100px 80px black;
+  /* height: 100%; */
 }
 
 .hamburger {
@@ -30,4 +34,9 @@
 /* .profile {
   width: 20%;
   height: 50px;
+} */
+/* @media (max-width: 1300px) {
+  .container {
+    height: 700px;
+  }
 } */

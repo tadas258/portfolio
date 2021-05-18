@@ -1,12 +1,16 @@
 .profile-img {
   position: absolute;
+  display: flex;
   width: 36%;
-  background-image: url(../img/profile2.jpg);
+  background-image: url(../img/personal_cuted444444.png);
+  background-color: rgba(27, 18, 18, 0);
+  filter: drop-shadow(0 40px 30px rgb(0, 0, 0)) grayscale(50%);
+
   height: 100%;
   top: 0;
   left: 130px;
   z-index: 9999;
   background-size: cover;
   background-position: center top;
-  box-shadow: 10px 10px 50px 40px rgba(0, 0, 0, 0.253);
+  /* box-shadow: 10px 10px 50px 40px rgba(0, 0, 0, 0.561); */
 }
