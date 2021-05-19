@@ -10,33 +10,36 @@
   position: absolute;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 90%;
-  padding: 60px;
-  height: 75vh;
-}
-
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  box-shadow: 0 0 100px 80px black;
-  /* height: 100%; */
+  width: 1650px;
+  height: 800px;
 }
 
 .hamburger {
+  display: flex;
   width: 6%;
-
-  background-color: grey;
+  height: 85%;
+  background-color: var(--main-color);
+  box-shadow: 0 0 100px 40px black;
 }
 
-/* .profile {
+.profile {
   width: 20%;
   height: 50px;
-} */
-/* @media (max-width: 1300px) {
+}
+@media (max-width: 1600px) {
   .container {
+    width: 1450px;
     height: 700px;
   }
-} */
+}
+@media (max-width: 1300px) {
+  .container {
+    width: 1100px;
+    height: 500px;
+  }
+}

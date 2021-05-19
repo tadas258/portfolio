@@ -1,7 +1,0 @@
-@import "./home.css";
-
-@media (max-width: 1300px) {
-  .container {
-    width: 80%;
-  }
-}
