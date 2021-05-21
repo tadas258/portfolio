@@ -6,7 +6,7 @@
   box-shadow: 0 0 100px 40px black;
 }
 .about-me {
-  border-bottom: solid 1px rgb(0, 0, 0);
+  border-bottom: solid 2px rgb(0, 0, 0);
   height: 50%;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,6 @@
   padding-top: 75px;
   outline: 1px solid var(--grey-border);
   outline-offset: -20px;
-
   padding-right: 30px;
   line-height: 25px;
 }
@@ -25,13 +24,15 @@
 .basic-info {
   display: flex;
   margin: 23px 0;
+  margin-left: -20px;
 }
 .basic-info > span {
   color: var(--red-details);
   font-size: 20px;
+  margin: 0 20px;
 }
 .resume {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 @media (max-width: 1600px) {
