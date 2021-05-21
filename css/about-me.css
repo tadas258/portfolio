@@ -12,7 +12,7 @@
   flex-direction: column;
   padding-left: 100px;
   padding-top: 75px;
-  outline: 1px solid var(--grey-border);
+  outline: 1px solid rgb(126, 126, 126);
   outline-offset: -20px;
   padding-right: 30px;
   line-height: 25px;
