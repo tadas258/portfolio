@@ -1,9 +1,14 @@
 @import "./components/reset.css";
 @import "./components/utilities.css";
 @import "./components/variables.css";
+@import "./components/particles-style.css";
 @import "./about-me.css";
-@import "./skills.css";
+@import "./info-box.css";
 @import "./profile-img.css";
+@import "./corner-buttons.css";
+@import "./edu-empl.css";
+@import "./socials.css";
+@import "./skills.css";
 
 .container {
   position: absolute;

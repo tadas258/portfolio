@@ -1,0 +1,12 @@
+.socials > a {
+  font-size: 1.7rem;
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.4s;
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.socials > a:hover {
+  transform: rotate(360deg);
+}

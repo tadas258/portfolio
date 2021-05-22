@@ -3,7 +3,7 @@ import { skillBarData } from "./data/skillBarData.js";
 import { showUpWindow } from "./components/skill.js";
 import { socialsData } from "./data/socialsData.js";
 import { renderSocials } from "./components/renderSocials.js";
-
+particlesJS.load("particles-js", "particles.json", function () {});
 renderSocials(".socials", socialsData);
 new SkillBar(".skills_box", skillBarData);
 showUpWindow();
