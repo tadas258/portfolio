@@ -20,7 +20,7 @@
   display: inline-block;
   width: 80%;
   color: rgb(255, 255, 255);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .skills > .bar {
   display: inline-block;
@@ -44,6 +44,16 @@
   box-shadow: 1px 1px 2px var(--buttons);
 }
 
+@media (max-width: 1700px) {
+  .skills {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 1600px) {
+  .skills {
+    font-size: 0.8rem;
+  }
+}
 @media (max-width: 1550px) {
   .skills {
     font-size: 0.7rem;

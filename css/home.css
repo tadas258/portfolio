@@ -28,10 +28,22 @@
   width: 20%;
   height: 50px;
 }
+@media (max-width: 1700px) {
+  .container {
+    width: 1550px;
+    height: 750px;
+  }
+}
 @media (max-width: 1600px) {
   .container {
     width: 1450px;
     height: 700px;
+  }
+}
+@media (max-width: 1500px) {
+  .container {
+    width: 1400px;
+    height: 680px;
   }
 }
 @media (max-width: 1300px) {
