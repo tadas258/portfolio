@@ -9,6 +9,7 @@
 @import "./edu-empl.css";
 @import "./socials.css";
 @import "./skills.css";
+@import "./hamburger.css";
 
 .container {
   position: absolute;
@@ -21,14 +22,6 @@
   transform: translate(-50%, -50%);
   width: 1650px;
   height: 800px;
-}
-
-.hamburger {
-  display: flex;
-  width: 6%;
-  height: 85%;
-  background-color: var(--main-color);
-  box-shadow: 0 0 100px 40px black;
 }
 
 .profile {
