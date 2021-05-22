@@ -5,6 +5,7 @@
   height: 85%;
   background-color: var(--main-color);
   box-shadow: 0 0 100px 40px black;
+  outline: 1px solid black;
 }
 .drop-down-links {
   display: none;

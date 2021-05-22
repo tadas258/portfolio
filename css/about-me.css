@@ -4,6 +4,7 @@
   height: 85%;
   flex-direction: column;
   box-shadow: 0 0 100px 40px black;
+  outline: 1px solid black;
 }
 .about-me {
   border-bottom: solid 2px rgb(0, 0, 0);
