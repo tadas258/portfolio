@@ -44,22 +44,50 @@
   box-shadow: 1px 1px 2px var(--buttons);
 }
 
+@media (max-width: 1750px) {
+  .skills {
+    font-size: 0.8rem;
+  }
+}
 @media (max-width: 1700px) {
   .skills {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 1600px) {
   .skills {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
 @media (max-width: 1550px) {
   .skills {
     font-size: 0.7rem;
   }
+  .skills_box:before {
+    top: 32px;
+    bottom: 32px;
+ 
+    left: -13px;
+    right: 34px;
+  }
+}
+@media (max-width: 1470px) {
+  .skills_box:before {
+    top: 29px;
+    bottom: 29px;
+
+    left: -11px;
+    right: 27px;
+  }
 }
 
+@media (max-width: 1390px) {
+  .skills_box:before {
+    top: 21px;
+    bottom: 21px;
+    left: -9px;
+    right: 22px;
+}
 @keyframes loading {
   0% {
     width: 0;

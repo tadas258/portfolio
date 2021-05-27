@@ -1,14 +1,22 @@
 img {
-  display: flex;
-  width: 100%;
   height: 100%;
-
-  filter: drop-shadow(10px 20px 50px rgb(0, 0, 0)) grayscale(50%);
+  z-index: 1;
+  position: relative;
+  filter: drop-shadow(50px 100px 50px rgb(0, 0, 0));
 }
 .profile-img {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
   width: 40%;
   height: 100%;
-  z-index: 10;
+  z-index: 2;
+  background-image: url(../img/BLACK\ IV\ by\ Jean-Marc\ Denis.jpg);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  filter: drop-shadow(0 10px 30px rgb(0, 0, 0)) grayscale(70%);
+
   background-color: #161616;
   box-shadow: 0 0 80px 20px black;
   outline: 2px solid black;

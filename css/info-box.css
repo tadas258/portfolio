@@ -35,3 +35,37 @@
   margin-bottom: 10px;
   font-size: 3rem;
 }
+
+@media (max-width: 1550px) {
+  .name {
+    font-size: 2.5rem;
+  }
+  .intro {
+    outline-offset: -33px;
+  }
+  .box {
+    outline-offset: -16px;
+  }
+}
+@media (max-width: 1470px) {
+  .name {
+    font-size: 2.3rem;
+  }
+  .intro {
+    outline-offset: -30px;
+  }
+  .box {
+    outline-offset: -13px;
+  }
+}
+@media (max-width: 1390px) {
+  .name {
+    font-size: 2.1rem;
+  }
+  .intro {
+    outline-offset: -22px;
+  }
+  .box {
+    outline-offset: -10px;
+  }
+}

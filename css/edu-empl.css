@@ -71,12 +71,14 @@
 @media (max-width: 1550px) {
   .right_container {
     padding: 25px 0 0 20px;
+    outline-offset: -16px;
   }
   .right_container > h3 {
     font-size: 2rem;
   }
   .left_container {
     padding: 25px 0 0 20px;
+    outline-offset: -16px;
   }
   .left_container > h3 {
     font-size: 2rem;
@@ -86,5 +88,55 @@
   }
   .education > div {
     margin-top: 12px;
+  }
+}
+@media (max-width: 1470px) {
+  .right_container {
+    padding: 18px 0 0 20px;
+    outline-offset: -13px;
+  }
+  .right_container > h3 {
+    font-size: 1.5rem;
+  }
+  .left_container {
+    outline-offset: -13px;
+    padding: 18px 0 0 20px;
+  }
+  .left_container > h3 {
+    font-size: 1.5rem;
+  }
+  .employment > div {
+    margin-top: 4px;
+  }
+  .education > div {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1390px) {
+  .right_container {
+    padding: 18px 0 0 20px;
+    outline-offset: -10px;
+  }
+
+  .left_container {
+    outline-offset: -10px;
+    padding: 18px 0 0 20px;
+  }
+  .left_container > h3 {
+    font-size: 1.5rem;
+  }
+  .employment > div > h4 {
+    font-size: 12px;
+    color: white;
+  }
+  .education > div > h4 {
+    font-size: 12px;
+    color: white;
+  }
+  .did {
+    font-size: 11px;
+  }
+  .date {
+    font-size: 12px;
   }
 }

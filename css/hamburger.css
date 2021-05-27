@@ -1,5 +1,6 @@
 .ham-conteiner {
   display: flex;
+  position: relative;
   flex-direction: column;
   width: 6%;
   height: 85%;
@@ -8,19 +9,65 @@
   outline: 1px solid black;
 }
 .drop-down-links {
+  position: relative;
+  z-index: 10;
   display: none;
-  margin-top: 85px;
-  height: 70%;
+  text-align: center;
+  padding: 20px 5px 0 0;
+  height: 35%;
+}
+.pop-box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  font-size: 1rem;
+}
+.pop-up1 {
+  display: none;
+
+  padding: 3px 10px 0 10px;
+
+  height: 40px;
+
+  position: fixed;
+  margin-left: 97px;
+  margin-top: 35px;
+  z-index: 10;
+  animation: drop 2s;
+}
+.pop-up2 {
+  display: none;
+  /* background-color: black; */
+  padding: 3px 10px 0 10px;
+  height: 30px;
+  position: fixed;
+  margin-left: 97px;
+  margin-top: 100px;
+  z-index: 10;
+  animation: drop 2s;
+}
+.hover1,
+.hover2 {
+  font-size: 2.2rem !important;
+  margin-top: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--hover-button);
+  transition: 2s;
 }
 
+.hover2:hover,
+.hover1:hover {
+  transform: rotate(-90deg);
+}
 .drop-nav-link,
-ul {
+.drop-down-links {
+  position: relative;
   text-decoration: none;
   list-style-type: none;
   font-size: 15px;
   color: white;
-
-  animation: 2s;
+  animation: drop 3s;
 }
 
 .drop-nav-link:hover::before {
@@ -34,11 +81,9 @@ ul {
   border-radius: 100%;
 }
 
-.drop-down-links > li {
-  padding: 13px 2px;
-}
 .hamburger {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   opacity: 0.5;
@@ -46,8 +91,10 @@ ul {
   transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
   cursor: pointer;
   width: 100%;
+  z-index: 3;
+
   height: 82px;
-  background-color: grey;
+  /* background-color: grey; */
 }
 .ham,
 .hamOne,
@@ -58,6 +105,69 @@ ul {
   margin: 2px;
 }
 .hamburger:hover {
+  z-index: 10;
   opacity: 1;
   transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+@keyframes drop {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1750px) {
+  .hover1,
+  .hover2 {
+    font-size: 2.1rem;
+  }
+  .pop-up1,
+  .pop-up2 {
+    margin-left: 87px;
+  }
+
+  @media (max-width: 1600px) {
+    .pop-up1,
+    .pop-up2 {
+      margin-left: 77px;
+    }
+  }
+  @media (max-width: 1470px) {
+    .pop-up1,
+    .pop-up2 {
+      margin-left: 70px;
+    }
+    .pop-up1 {
+      margin-top: 22px;
+    }
+    .pop-up2 {
+      margin-top: 72px;
+    }
+    .hover1,
+    .hover2 {
+      font-size: 1.8rem !important;
+      margin-top: 20px;
+    }
+  }
+  @media (max-width: 1390px) {
+    .pop-up1,
+    .pop-up2 {
+      margin-left: 60px;
+      font-size: 13px;
+    }
+    .hover1,
+    .hover2 {
+      font-size: 1.6rem !important;
+      margin-top: 20px;
+    }
+    .drop-down-links {
+      margin-top: -20px;
+    }
+    .pop-up2 {
+      margin-top: 68px;
+    }
+  }
 }
