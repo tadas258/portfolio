@@ -8,16 +8,17 @@ class SkillBar {
     this.render();
   }
   generateProgressBar(progressBar) {
-    return `<div class="skills">
-            <div class="texts">
-             <div class="label">${progressBar.label}</div>
-             </div>
-             <div class="bar">
-            <div class="progress" style="width: ${progressBar.value}%;">
-            <div class="loading"></div>
-           </div>
-        </div>
-   </div>`;
+  //   return `<div class="skills">
+  //           <div class="texts">
+  //            <div class="label">${progressBar.label}</div>
+  //            </div>
+  //            <div class="bar">
+  //           <div class="progress" style="width: ${progressBar.value}%;">
+  //           <div class="loading"></div>
+  //          </div>
+  //       </div>
+  //  </div>`;
+  return;
   }
 
   formatNumber(number) {

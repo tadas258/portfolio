@@ -30,15 +30,28 @@
   outline-offset: -20px;
 }
 
+
+.name-box {
+  text-align: center;
+}
 .name {
   color: white;
   margin-bottom: 10px;
   font-size: 3rem;
 }
+.soft {
+  margin-top: -13px;
+  margin-bottom: 10px;
+  color: rgb(126, 126, 126);
+  font-size: 1.5rem;
+}
 
 @media (max-width: 1550px) {
   .name {
     font-size: 2.5rem;
+  }
+  .soft {
+    font-size: 1.3rem;
   }
   .intro {
     outline-offset: -33px;
@@ -51,6 +64,9 @@
   .name {
     font-size: 2.3rem;
   }
+  .soft {
+    font-size: 1.1rem;
+  }
   .intro {
     outline-offset: -30px;
   }
@@ -61,6 +77,9 @@
 @media (max-width: 1390px) {
   .name {
     font-size: 2.1rem;
+  }
+  .soft {
+    font-size: 1rem;
   }
   .intro {
     outline-offset: -22px;

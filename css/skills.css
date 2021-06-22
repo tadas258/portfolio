@@ -16,11 +16,21 @@
   bottom: 39px;
   border: 1px solid var(--grey-border);
 }
+.skill-ex {
+  font-size: 19px;
+  color: rgb(126, 126, 126);
+  margin-top: 10px;
+
+}
 .skills {
   display: inline-block;
   width: 80%;
   color: rgb(255, 255, 255);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+.skills > li {
+  margin-top: 8px;
 }
 .skills > .bar {
   display: inline-block;
@@ -51,17 +61,38 @@
 }
 @media (max-width: 1700px) {
   .skills {
-    font-size: 0.8rem;
+    margin-top: 10px;
+    font-size: 0.7rem;
+  }
+  .skill-ex {
+    font-size: 18px;
+  
+    margin-top: 5px;
+  
   }
 }
 @media (max-width: 1600px) {
   .skills {
+    margin-top: 10px;
     font-size: 0.7rem;
+  }
+  .skill-ex {
+    font-size: 18px;
+  
+    margin-top: 10px;
+  
   }
 }
 @media (max-width: 1550px) {
   .skills {
     font-size: 0.7rem;
+    margin-top: 9px;
+  }
+  .skill-ex {
+    font-size: 18px;
+  
+    margin-top: 5px;
+  
   }
   .skills_box:before {
     top: 32px;
@@ -79,6 +110,20 @@
     left: -11px;
     right: 27px;
   }
+  .skill-ex {
+    font-size: 17px;
+    
+    margin-top: 5px;
+  
+  }
+  .skills {
+    
+    font-size: 0.7rem;
+    margin-top: 8px;
+  }
+  .skills > li {
+    margin-top: 8px;
+  }
 }
 
 @media (max-width: 1390px) {
@@ -87,6 +132,7 @@
     bottom: 21px;
     left: -9px;
     right: 22px;
+  }
 }
 @keyframes loading {
   0% {
